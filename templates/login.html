@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Log In</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+   
+
+    </head>
+    <body style="background-color: #121312; color: #22682b;">
+        
+        <div style="margin-left: 40px; margin-top: 20px; color: rgb(51, 71, 107);">
+            <h1>BOOKS for you</h1>
+        </div>
+
+        <div style="margin-left: 60px; margin-top: 50px;">
+            <h2>Inicia Sesion</h2> 
+        </div>
+
+        
+      
+        <form method="post">
+                <div class="container">
+                        <div class="form-group col-md-8">
+                            <br>
+                            {{message3}}
+                            <input type="text" class="form-control" name="log_name" placeholder="User Name">
+                            {{message1}}
+                            <br>
+                            <input type="password" class="form-control" name="log_password" placeholder="Password">
+                            {{message2}}
+                    </div>
+                
+                <div class="form-group col-md-8" >
+                    <button class="btn btn-success">Ingresar</button>
+                </div>
+        </form>
+
+        <form action="{{url_for('registro')}}">
+            <div class="form-group col-md-8" >
+                <button class="btn btn-success">Registrarse</button>
+            </div>
+        </form>
+        
+
+        </div>
+    </body>
+</html>

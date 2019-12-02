@@ -1,0 +1,3 @@
+FLASK_APP=application.py
+DATABASE_URL=postgres://djzrqelvijview:6060b8c30f9173249b0a909e1ef5022f38875bd21c715750375a9afd58f4befc@ec2-54-243-208-234.compute-1.amazonaws.com:5432/dfv6sf40aqqr9h
+FLASK_DEBUG=1
